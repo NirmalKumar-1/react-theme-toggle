@@ -1,16 +1,45 @@
-# React + Vite
+🌗 React Theme Toggle
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React application that demonstrates a dark and light theme toggle using the React Context API for global state management and Tailwind CSS for responsive, utility-first styling.
 
-Currently, two official plugins are available:
+🔗 Live Demo:
+👉 https://nirmalkumar-1.github.io/react-theme-toggle/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+⸻
 
-## React Compiler
+📌 Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This project showcases how to implement a global theme switcher in a React application using best practices. The theme state is managed centrally using the Context API, allowing all components to react instantly to theme changes without prop drilling. Tailwind CSS is used to handle styling and dark mode support efficiently.
 
-## Expanding the ESLint configuration
+The toggle button enables users to switch between light and dark modes seamlessly, enhancing user experience and accessibility.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+⸻
+
+✨ Features
+	•	🌙 Dark & Light theme toggle
+	•	⚛️ Global state management using React Context API
+	•	🎨 Tailwind CSS dark mode 
+	•	♻️ Reusable and clean component structure
+	•	📱 Responsive UI
+
+⸻
+
+🛠️ Tech Stack
+	•	React
+	•	React Context API
+	•	Tailwind CSS
+	•	Vite 
+	•	JavaScript (ES6+)
+
+⸻
+
+🚀 How It Works
+	•	The application uses a custom ThemeProvider to manage the current theme state.
+	•	When the toggle button is clicked, the theme updates globally.
+	•	Tailwind CSS dark mode is activated by dynamically adding or removing the dark class on the root HTML element.
+	•	All components automatically adjust their styles based on the active theme.
+
+📷 Media
+https://github.com/user-attachments/assets/d01f30b5-d871-4514-ac3e-bd8fa13e5808
+
+
