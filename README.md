@@ -8,7 +8,6 @@ A modern React application that demonstrates a dark and light theme toggle using
 ⸻
 
 📌 Overview
-
 This project showcases how to implement a global theme switcher in a React application using best practices. The theme state is managed centrally using the Context API, allowing all components to react instantly to theme changes without prop drilling. Tailwind CSS is used to handle styling and dark mode support efficiently.
 
 The toggle button enables users to switch between light and dark modes seamlessly, enhancing user experience and accessibility.
@@ -40,6 +39,8 @@ The toggle button enables users to switch between light and dark modes seamlessl
 	•	All components automatically adjust their styles based on the active theme.
 
 📷 Media
-https://github.com/user-attachments/assets/d01f30b5-d871-4514-ac3e-bd8fa13e5808
+
+https://github.com/user-attachments/assets/dc169b9f-cc70-4575-bfa1-e8e6ed2dd44e
+
 
 
